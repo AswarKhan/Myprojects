@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Youv'e logged in {% endblock %}
+
+{% block content %}
+<h3 align="center">
+		&nbsp;&nbsp;&nbsp;
+	<font face="cinzel" size="4">
+			<a href="/map">HOME</a>&nbsp;&nbsp;
+			<a href="/test">CHARGING LOCATOR</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="/map">CONTACT US</a> &nbsp;
+		</font>
+	</h3>
+
+<p align="center">Hello You have Logged in as {{ email }}</p>
+<p align="center">This is a india map</p>
+<p align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30696761.863215942!2d64.40744674242652!3d20.085458864092008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1680964055447!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+
+{% endblock %}
